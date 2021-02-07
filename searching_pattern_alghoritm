@@ -1,6 +1,6 @@
 public int countCode(String str) {
   
-  // first of all: i thimk it can be colve by KBM algorithm implementation
+  // first of all: i thimk it can be solve by KBM algorithm implementation
   
   String pattern = "code";
   int j = 0;

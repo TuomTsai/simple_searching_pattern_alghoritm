@@ -1,0 +1,25 @@
+public int countCode(String str) {
+  
+  // first of all: i thimk it can be colve by KBM algorithm implementation
+  
+  String pattern = "code";
+  int j = 0;
+  
+  for(int i = 0; str.length()-i >= 4; i++) {
+    
+    if(str.substring(i, i+2).equals("co")) {
+      
+      if(str.substring(i+3, i+4).equals("e")) {
+        j++;
+        continue;
+      }
+      
+      if(str.substring(i, i+4).equals(pattern)) {
+        j++;
+      }
+    }
+  }
+    
+  return j;
+}
+

@@ -1,0 +1,1 @@
+# simple_searching_pattern_alghoritm
